@@ -1,6 +1,6 @@
 # Audit record
 
-- Artifact: `deepseek_asm.prg`
+- Artifact: `deepseek_c64_v9.prg`
 - Format: CBM PRG
 - Load address: `$0801`
 - BASIC entry: `SYS 4608` (`$1200`)
