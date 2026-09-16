@@ -1,6 +1,6 @@
 # Audit record
 
-- Artifact: `deepseek_c64_v9.prg`
+- Artifact: `c64_logo_gradient_scroller.prg`
 - Format: CBM PRG
 - Load address: `$0801`
 - BASIC entry: `SYS 4608` (`$1200`)
