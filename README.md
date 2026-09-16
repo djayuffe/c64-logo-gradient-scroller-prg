@@ -16,3 +16,7 @@ charset placement. The original is never silently replaced.
 
 `AUDIT.md` records the original and corrected SHA-256 values. Run
 `shasum -a 256 -c SHA256SUMS.txt` to verify all tracked files.
+## Documentation and license
+
+Function-level documentation is in docs/FUNCTIONS.md. The project is released
+under GPL-3.0; see LICENSE.
