@@ -1,4 +1,4 @@
-# C64 v9 PRG
+# C64 - Logo Gradient Scroller PRG
 
 ![C64 effect preview](docs/preview.png)
 
@@ -20,6 +20,21 @@ charset placement. The original is never silently replaced.
 
 `AUDIT.md` records the original and corrected SHA-256 values. Run
 `shasum -a 256 -c SHA256SUMS.txt` to verify all tracked files.
+
+## Rebuild and run
+
+Requires ACME 0.97 or newer. From `source/`:
+
+```sh
+acme --strict-segments -f cbm -o ../c64_logo_gradient_scroller.prg c64_logo_gradient_scroller_acme.s
+```
+
+Run the corrected image with VICE:
+
+```sh
+x64sc -autostart c64_logo_gradient_scroller.prg
+```
+
 ## Documentation and license
 
 Function-level documentation is in docs/FUNCTIONS.md. The project is released
